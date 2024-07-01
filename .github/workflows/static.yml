@@ -1,0 +1,10 @@
+            - name: Resume Template
+  # You may pin to the exact commit or the version.
+  # uses: rennancockles/resume-action@863f22cf3ad1527699e31c43586570dbabeddcfc
+  uses: rennancockles/resume-action@v1
+  with:
+    # Directory to search for resume data files.
+    directory: # default is data
+    # Domain name to use with github pages.
+    cname: # optional
+          
